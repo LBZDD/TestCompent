@@ -15,6 +15,9 @@
 		5E9B0C912639333D00177C2B /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9B0C8C2639333D00177C2B /* NSObject+YYModel.m */; };
 		5E9B0C922639333D00177C2B /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9B0C8D2639333D00177C2B /* YYClassInfo.m */; };
 		5E9B0C932639333D00177C2B /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E9B0C8E2639333D00177C2B /* YYModel.h */; };
+		5ECCE582264FAFC30002F877 /* TestModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ECCE580264FAFC30002F877 /* TestModel.h */; };
+		5ECCE583264FAFC30002F877 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECCE581264FAFC30002F877 /* TestModel.m */; };
+		5ECCE585264FB0A80002F877 /* TestCompent.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5ECCE584264FB0A80002F877 /* TestCompent.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,9 @@
 		5E9B0C8C2639333D00177C2B /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
 		5E9B0C8D2639333D00177C2B /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
 		5E9B0C8E2639333D00177C2B /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		5ECCE580264FAFC30002F877 /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		5ECCE581264FAFC30002F877 /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		5ECCE584264FB0A80002F877 /* TestCompent.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TestCompent.podspec; path = ../TestCompent.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 		5E9B0C642639331300177C2B = {
 			isa = PBXGroup;
 			children = (
+				5ECCE584264FB0A80002F877 /* TestCompent.podspec */,
 				5E9B0C702639331300177C2B /* TestCompent */,
 				5E9B0C7B2639331300177C2B /* TestCompentTests */,
 				5E9B0C6F2639331300177C2B /* Products */,
@@ -87,6 +94,8 @@
 				5E9B0C8B2639333D00177C2B /* YYClassInfo.h */,
 				5E9B0C8D2639333D00177C2B /* YYClassInfo.m */,
 				5E9B0C8E2639333D00177C2B /* YYModel.h */,
+				5ECCE580264FAFC30002F877 /* TestModel.h */,
+				5ECCE581264FAFC30002F877 /* TestModel.m */,
 				5E9B0C722639331300177C2B /* Info.plist */,
 			);
 			path = TestCompent;
@@ -109,6 +118,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E9B0C8F2639333D00177C2B /* NSObject+YYModel.h in Headers */,
+				5ECCE582264FAFC30002F877 /* TestModel.h in Headers */,
 				5E9B0C902639333D00177C2B /* YYClassInfo.h in Headers */,
 				5E9B0C932639333D00177C2B /* YYModel.h in Headers */,
 				5E9B0C7F2639331300177C2B /* TestCompent.h in Headers */,
@@ -194,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ECCE585264FB0A80002F877 /* TestCompent.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ECCE583264FAFC30002F877 /* TestModel.m in Sources */,
 				5E9B0C922639333D00177C2B /* YYClassInfo.m in Sources */,
 				5E9B0C912639333D00177C2B /* NSObject+YYModel.m in Sources */,
 			);
