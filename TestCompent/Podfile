@@ -1,0 +1,18 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'TestCompent' do
+
+pod 'YYModel'
+pod 'TuyaSmartHomeKit'
+
+end
+
+post_install do |installer|
+  installer.pods_project.build_configurations.each do |config|
+    config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+  end
+end
+
+
+

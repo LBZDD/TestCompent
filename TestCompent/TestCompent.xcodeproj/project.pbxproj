@@ -3,21 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5E9B0C782639331300177C2B /* TestCompent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9B0C6E2639331300177C2B /* TestCompent.framework */; };
 		5E9B0C7D2639331300177C2B /* TestCompentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9B0C7C2639331300177C2B /* TestCompentTests.m */; };
 		5E9B0C7F2639331300177C2B /* TestCompent.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E9B0C712639331300177C2B /* TestCompent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E9B0C8F2639333D00177C2B /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E9B0C8A2639333D00177C2B /* NSObject+YYModel.h */; };
-		5E9B0C902639333D00177C2B /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E9B0C8B2639333D00177C2B /* YYClassInfo.h */; };
-		5E9B0C912639333D00177C2B /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9B0C8C2639333D00177C2B /* NSObject+YYModel.m */; };
-		5E9B0C922639333D00177C2B /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9B0C8D2639333D00177C2B /* YYClassInfo.m */; };
-		5E9B0C932639333D00177C2B /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E9B0C8E2639333D00177C2B /* YYModel.h */; };
 		5ECCE582264FAFC30002F877 /* TestModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ECCE580264FAFC30002F877 /* TestModel.h */; };
 		5ECCE583264FAFC30002F877 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECCE581264FAFC30002F877 /* TestModel.m */; };
 		5ECCE585264FB0A80002F877 /* TestCompent.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5ECCE584264FB0A80002F877 /* TestCompent.podspec */; };
+		A995FF73CAB4A32C054FDBB5 /* Pods_TestCompent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BA0BC4F1DF37354FA6C839 /* Pods_TestCompent.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,20 +27,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		308BC37F3EA81F27CA6EC64C /* Pods-TestCompent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCompent.release.xcconfig"; path = "Target Support Files/Pods-TestCompent/Pods-TestCompent.release.xcconfig"; sourceTree = "<group>"; };
 		5E9B0C6E2639331300177C2B /* TestCompent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestCompent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9B0C712639331300177C2B /* TestCompent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCompent.h; sourceTree = "<group>"; };
 		5E9B0C722639331300177C2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E9B0C772639331300177C2B /* TestCompentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCompentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9B0C7C2639331300177C2B /* TestCompentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCompentTests.m; sourceTree = "<group>"; };
 		5E9B0C7E2639331300177C2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E9B0C8A2639333D00177C2B /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
-		5E9B0C8B2639333D00177C2B /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
-		5E9B0C8C2639333D00177C2B /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
-		5E9B0C8D2639333D00177C2B /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
-		5E9B0C8E2639333D00177C2B /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
 		5ECCE580264FAFC30002F877 /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
 		5ECCE581264FAFC30002F877 /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 		5ECCE584264FB0A80002F877 /* TestCompent.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TestCompent.podspec; path = ../TestCompent.podspec; sourceTree = "<group>"; };
+		E1AB7AE78C6E1202DE3A8512 /* Pods-TestCompent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCompent.debug.xcconfig"; path = "Target Support Files/Pods-TestCompent/Pods-TestCompent.debug.xcconfig"; sourceTree = "<group>"; };
+		F4BA0BC4F1DF37354FA6C839 /* Pods_TestCompent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestCompent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A995FF73CAB4A32C054FDBB5 /* Pods_TestCompent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +61,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DF769AD6A351D8DBB54925A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4BA0BC4F1DF37354FA6C839 /* Pods_TestCompent.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5E9B0C642639331300177C2B = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +76,8 @@
 				5E9B0C702639331300177C2B /* TestCompent */,
 				5E9B0C7B2639331300177C2B /* TestCompentTests */,
 				5E9B0C6F2639331300177C2B /* Products */,
+				A7EA80F4B2BE63688E71C4AA /* Pods */,
+				4DF769AD6A351D8DBB54925A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,11 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				5E9B0C712639331300177C2B /* TestCompent.h */,
-				5E9B0C8A2639333D00177C2B /* NSObject+YYModel.h */,
-				5E9B0C8C2639333D00177C2B /* NSObject+YYModel.m */,
-				5E9B0C8B2639333D00177C2B /* YYClassInfo.h */,
-				5E9B0C8D2639333D00177C2B /* YYClassInfo.m */,
-				5E9B0C8E2639333D00177C2B /* YYModel.h */,
 				5ECCE580264FAFC30002F877 /* TestModel.h */,
 				5ECCE581264FAFC30002F877 /* TestModel.m */,
 				5E9B0C722639331300177C2B /* Info.plist */,
@@ -110,6 +110,15 @@
 			path = TestCompentTests;
 			sourceTree = "<group>";
 		};
+		A7EA80F4B2BE63688E71C4AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1AB7AE78C6E1202DE3A8512 /* Pods-TestCompent.debug.xcconfig */,
+				308BC37F3EA81F27CA6EC64C /* Pods-TestCompent.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -117,10 +126,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E9B0C8F2639333D00177C2B /* NSObject+YYModel.h in Headers */,
 				5ECCE582264FAFC30002F877 /* TestModel.h in Headers */,
-				5E9B0C902639333D00177C2B /* YYClassInfo.h in Headers */,
-				5E9B0C932639333D00177C2B /* YYModel.h in Headers */,
 				5E9B0C7F2639331300177C2B /* TestCompent.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,10 +138,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E9B0C822639331300177C2B /* Build configuration list for PBXNativeTarget "TestCompent" */;
 			buildPhases = (
+				3C7C8B6A5654CCD1A44619B7 /* [CP] Check Pods Manifest.lock */,
 				5E9B0C692639331300177C2B /* Headers */,
 				5E9B0C6A2639331300177C2B /* Sources */,
 				5E9B0C6B2639331300177C2B /* Frameworks */,
 				5E9B0C6C2639331300177C2B /* Resources */,
+				986947D5B54AD71AF283D7BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,14 +225,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C7C8B6A5654CCD1A44619B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestCompent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		986947D5B54AD71AF283D7BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestCompent/Pods-TestCompent-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestCompent/Pods-TestCompent-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestCompent/Pods-TestCompent-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5E9B0C6A2639331300177C2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5ECCE583264FAFC30002F877 /* TestModel.m in Sources */,
-				5E9B0C922639333D00177C2B /* YYClassInfo.m in Sources */,
-				5E9B0C912639333D00177C2B /* NSObject+YYModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +333,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -347,6 +396,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -367,6 +417,7 @@
 		};
 		5E9B0C832639331300177C2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1AB7AE78C6E1202DE3A8512 /* Pods-TestCompent.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -374,6 +425,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = TestCompent/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -390,6 +443,7 @@
 		};
 		5E9B0C842639331300177C2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 308BC37F3EA81F27CA6EC64C /* Pods-TestCompent.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -397,6 +451,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = TestCompent/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
